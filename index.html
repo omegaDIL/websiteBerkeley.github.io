@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="avatar.jpg" alt="Avatar" class="avatar">
+            <h1>Welcome to My Personal Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my personal website. Navigate through the sections to learn more about me and my work. There are the following</p>
+        <ol>
+            <li><a href="#about">about me</a></li>
+            <li><a href="#projects">my projects</a></li>
+            <li><a href="#resume">my resume</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ol>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="photo.jpg" alt="My Photo" class="bio-photo">
+        <p>Hello! I'm a passionate student with a background in C++. I love coding, sleeping, and playing. In my free time, I enjoy fencing, and cycling as well.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>My projects</h2>
+        <div class="project">
+            <h3>Word lite</h3>
+            <iframe src="https://snap.berkeley.edu/embed?projectname=BJC%20CS10%20Project%201%3a%20Wordle%e2%84%a2%2dlite&username=lesaffre%20ismael&showTitle=true&showAuthor=true&editButton=true&pauseButton=true" width="500" height="400"></iframe>
+            <p>The goal of this game is to guess the word by writing some letters to complete the word. It uses Snap! to work.</p>
+        </div>
+        <div class="project">
+            <h3>Spelling bee</h3>
+            <iframe src="https://snap.berkeley.edu/embed?projectname=BJC%20CS10%20Project%202%3a%20Spelling%20Bee&username=lesaffre%20ismael&showTitle=true&showAuthor=true&editButton=true&pauseButton=true" width="500" height="400"></iframe>
+            <p>This project simulates the game where you have to guess a word by arranging the order of the letters available. It uses Snap!.</p>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>I should put my resume here, but I don't have one</p>
+        <p>Here is an introduction video of a berkeley CS course instead</p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/oG1OItm4JyU"></iframe>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter your name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"placeholder="enter your email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="enter your message"></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-media">
+            <a href="https://github.com/omegaDIL">GitHub</a>
+        </div>
+    </section>
+</body>
+</html>
